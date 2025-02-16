@@ -1,4 +1,4 @@
-let pageName=window.location.href.split('shoplane_sample_website/')[1].length>0?window.location.href.split('shoplane_sample_website/')[1].split('.html')[0] : 'credIndex';
+let pageName=window.location.href.split('agora_refined/')[1].length>0?window.location.href.split('shoplane_sample_website/')[1].split('.html')[0] : 'credIndex';
 let pageUrl=window.location.href;
 let pageInfo={
   pageName,pageUrl
