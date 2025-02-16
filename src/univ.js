@@ -1,3 +1,8 @@
+let pageName=window.location.href.split('shoplane_sample_website/')[1].length>0?window.location.href.split('shoplane_sample_website/')[1].split('.html')[0] : 'credIndex';
+let pageUrl=window.location.href;
+let pageInfo={
+  pageName,pageUrl
+}
 let credEmail = localStorage.getItem("credEmail");
 let txnId = sessionStorage.getItem("txnId");
 window.adobeDataLayer = window.adobeDataLayer || [];
